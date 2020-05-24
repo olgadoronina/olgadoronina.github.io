@@ -6,17 +6,17 @@ name = "Olga Doronina"
 authors = ["olga_doronina"]
 
 # Is this the primary user of the site?
-superuser = false
+superuser = true
 
 # Role/position
 role = "PhD student at Mechanical Engineering"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of Colorado, Boulder", url = "" } ]
+organizations = [ { name = "University of Colorado, Boulder", url = "https://www.colorado.edu/" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include "
+bio = "My research interests include data-driven turbulence modeling, statistical analysis and machine learning"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "olga.doronina@colorado.edu"
@@ -26,21 +26,20 @@ interests = [
 	"Machine learning", 
 	"Statistical analysis",
 	"Turbulence modeling",
-   "Numerical Methods",
-   "Computational Fluid Dynamics",
-   "Moving meshes"
+    "Numerical Methods",
+    "Moving meshes"
 ]
 
 publications = []
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups = ["Grad Students"]
+# user_groups = ["Grad Students"]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "PhD in Mechanical Engineering"
-  institution = "University of Colorado, Boulder"
-  year = 2020
+#[[education.courses]]
+#  course = "PhD in Mechanical Engineering"
+#  institution = "University of Colorado, Boulder"
+#  year = 2020
 
 [[education.courses]]
   course = "MS in Mechanical Engineering"
@@ -82,13 +81,12 @@ user_groups = ["Grad Students"]
   icon_pack = "fab"
   link = "https://github.com/olgadoronina"
 
+[[social]]
+  icon = "cv"
+  icon_pack = "ai"
+  link = "/files/resume.pdf"
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-#[[social]]
-#	icon = "cv"
-#	icon_pack = "ai"
-#	link = "olga_dodorina_files/cv.pdf"
+
 
 +++
-Olga Doronina is a PhD student in the Turbulence and Energy Systems Laboratory (TESLa) at the University of Colorado Boulder.
+I am a PhD student in the Turbulence and Energy Systems Laboratory ([TESLa](https://teslacu.org/)) at the University of Colorado Boulder, doing research on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.

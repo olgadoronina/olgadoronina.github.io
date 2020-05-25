@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Olga Doronina</title><link>https:olgadoronina.github.io/</link><atom:link href="https:olgadoronina.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Olga Doronina</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©</copyright><image><url>https:olgadoronina.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url><title>Olga Doronina</title><link>https:olgadoronina.github.io/</link></image><item><title>Example Talk</title><link>https:olgadoronina.github.io/talk/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/talk/example/</guid><description>&lt;div class="alert alert-note">
-&lt;div>
-Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
-&lt;/div>
-&lt;/div>
-&lt;p>Slides can be added in a few ways:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Create&lt;/strong> slides using Academic&amp;rsquo;s
-&lt;a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides" target="_blank" rel="noopener">&lt;em>Slides&lt;/em>&lt;/a> feature and link using &lt;code>slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
-&lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using
-&lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>Further talk details can easily be added to this page using &lt;em>Markdown&lt;/em> and $\rm \LaTeX$ math code.&lt;/p></description></item><item><title>Writing technical content in Academic</title><link>https:olgadoronina.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/post/writing-technical-content/</guid><description>&lt;p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Olga Doronina</title><link>https:olgadoronina.github.io/</link><atom:link href="https:olgadoronina.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Olga Doronina</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©</copyright><image><url>https:olgadoronina.github.io/images/icon_hu1fc3393be1206faf735b323c1b5cba8f_24222_512x512_fill_lanczos_center_2.png</url><title>Olga Doronina</title><link>https:olgadoronina.github.io/</link></image><item><title>Approximate Bayesian Computation for Parameter Estimation in RANS Turbulence Models</title><link>https:olgadoronina.github.io/talk/aps_2019/</link><pubDate>Tue, 26 Nov 2019 08:24:00 +0000</pubDate><guid>https:olgadoronina.github.io/talk/aps_2019/</guid><description/></item><item><title>Writing technical content in Academic</title><link>https:olgadoronina.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/post/writing-technical-content/</guid><description>&lt;p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p>
 &lt;p>&lt;strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong>&lt;/p>
 &lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p>
 &lt;h2 id="examples">Examples&lt;/h2>
@@ -273,124 +260,7 @@ date: 2019-09-01
 &lt;pre>&lt;code class="language-bash">jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
 &lt;/code>&lt;/pre>
 &lt;h2 id="example">Example&lt;/h2>
-&lt;p>This post was created with Jupyter. The orginal files can be found at &lt;a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a>&lt;/p></description></item><item><title>Slides</title><link>https:olgadoronina.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-academic">Create slides in Markdown with Academic&lt;/h1>
-&lt;p>
-&lt;a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic&lt;/a> |
-&lt;a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="features">Features&lt;/h2>
-&lt;ul>
-&lt;li>Efficiently write slides in Markdown&lt;/li>
-&lt;li>3-in-1: Create, Present, and Publish your slides&lt;/li>
-&lt;li>Supports speaker notes&lt;/li>
-&lt;li>Mobile friendly slides&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="controls">Controls&lt;/h2>
-&lt;ul>
-&lt;li>Next: &lt;code>Right Arrow&lt;/code> or &lt;code>Space&lt;/code>&lt;/li>
-&lt;li>Previous: &lt;code>Left Arrow&lt;/code>&lt;/li>
-&lt;li>Start: &lt;code>Home&lt;/code>&lt;/li>
-&lt;li>Finish: &lt;code>End&lt;/code>&lt;/li>
-&lt;li>Overview: &lt;code>Esc&lt;/code>&lt;/li>
-&lt;li>Speaker notes: &lt;code>S&lt;/code>&lt;/li>
-&lt;li>Fullscreen: &lt;code>F&lt;/code>&lt;/li>
-&lt;li>Zoom: &lt;code>Alt + Click&lt;/code>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/hakimel/reveal.js#pdf-export" target="_blank" rel="noopener">PDF Export&lt;/a>: &lt;code>E&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
-&lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
-&lt;p>Code block:&lt;/p>
-&lt;pre>&lt;code class="language-python">porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-print(&amp;quot;Eating...&amp;quot;)
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;h2 id="math">Math&lt;/h2>
-&lt;p>In-line math: $x + y = z$&lt;/p>
-&lt;p>Block math: doesn&amp;rsquo;t work with Github pages&lt;/p>
-&lt;hr>
-&lt;h2 id="fragments">Fragments&lt;/h2>
-&lt;p>Make content appear incrementally&lt;/p>
-&lt;pre>&lt;code>{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code>&lt;/pre>
-&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
-&lt;p>&lt;span class="fragment " >
-One
-&lt;/span>
-&lt;span class="fragment " >
-&lt;strong>Two&lt;/strong>
-&lt;/span>
-&lt;span class="fragment " >
-Three
-&lt;/span>&lt;/p>
-&lt;hr>
-&lt;p>A fragment can accept two optional parameters:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
-&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
-&lt;p>Add speaker notes to your presentation&lt;/p>
-&lt;pre>&lt;code class="language-markdown">{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code>&lt;/pre>
-&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
-&lt;aside class="notes">
-&lt;ul>
-&lt;li>Only the speaker can read these notes&lt;/li>
-&lt;li>Press &lt;code>S&lt;/code> key to view&lt;/li>
-&lt;/ul>
-&lt;/aside>
-&lt;hr>
-&lt;h2 id="themes">Themes&lt;/h2>
-&lt;ul>
-&lt;li>black: Black background, white text, blue links (default)&lt;/li>
-&lt;li>white: White background, black text, blue links&lt;/li>
-&lt;li>league: Gray background, white text, blue links&lt;/li>
-&lt;li>beige: Beige background, dark text, brown links&lt;/li>
-&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;ul>
-&lt;li>night: Black background, thick white text, orange links&lt;/li>
-&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
-&lt;li>simple: White background, black text, blue links&lt;/li>
-&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;section data-noprocess data-shortcode-slide
-data-background-image="/img/boards.jpg"
->
-&lt;h2 id="custom-slide">Custom Slide&lt;/h2>
-&lt;p>Customize the slide style and background&lt;/p>
-&lt;pre>&lt;code class="language-markdown">{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
-&lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
-&lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
-&lt;pre>&lt;code class="language-css">.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-color: navy;
-}
-&lt;/code>&lt;/pre>
-&lt;hr>
-&lt;h1 id="questions">Questions?&lt;/h1>
-&lt;p>
-&lt;a href="https://spectrum.chat/academic" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>
-&lt;a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Simulation of aerodynamics of a moving body prescribed by immersed boundaries on dynamically adaptative unstructured mesh</title><link>https:olgadoronina.github.io/publication/2019_moving_mesh/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2019_moving_mesh/</guid><description>&lt;p>The paper is devoted to the development of integrated technology for numerical simulation of aerodynamics of moving bodies prescribed by the immersed boundaries method on unstructured meshes. The dynamic mesh adaptation is used to improve the accuracy. The mesh adaptation method in use is built on the base of nodes-redistribution techniques. Its implementation implies the solution of additional differential equation governing the mesh movement. The method allows to keep a topology of the initial mesh and does not increase significantly the computational costs. The technology is developed for 2D formulations and verified on model problems.&lt;/p></description></item><item><title>Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation</title><link>https:olgadoronina.github.io/publication/2019_abc_rans/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2019_abc_rans/</guid><description>&lt;p>Approximate Bayesian computation (ABC) is used in this study to estimate unknown model parameter values, as well as uncertainties, in a nonequilibrium anisotropy closure for Reynolds averaged Navier-Stokes (RANS) simulations. The ABC approach does not require the direct computation of a likelihood function, thereby enabling substantially faster estimation of un-known parameters as compared to full Bayesian analyses. The approach also naturally provides uncertainties in parameter estimates, avoiding the artificial certainty implied by optimization methods for determining unknown parameters. Details of the ABC approach are described, including the use of a Markov chain Monte Carlo technique to accelerate the parameter estimation, and unknown model parameters are estimated based on turbulence kinetic energy reference data for four impulsively sheared homogeneous turbulence test cases, as well as periodically sheared homogeneous turbulence for five different shearing frequencies. The ABC method is shown to yield parameter values for the nonequilibrium anisotropy closure that provide good agreement between model results and the reference data.&lt;/p></description></item><item><title>Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation</title><link>https:olgadoronina.github.io/publication/2018_autonomic_abc/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2018_autonomic_abc/</guid><description>&lt;p>Autonomic closure is a new technique for achieving physically accurate adaptive closure
+&lt;p>This post was created with Jupyter. The orginal files can be found at &lt;a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a>&lt;/p></description></item><item><title>Simulating Aerodynamics of a Moving Body Specified by Immersed Boundaries on Dynamically Adaptive Unstructured Meshes</title><link>https:olgadoronina.github.io/publication/2019_moving_mesh/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2019_moving_mesh/</guid><description>&lt;p>The paper is devoted to the development of integrated technology for numerical simulation of aerodynamics of moving bodies prescribed by the immersed boundaries method on unstructured meshes. The dynamic mesh adaptation is used to improve the accuracy. The mesh adaptation method in use is built on the base of nodes-redistribution techniques. Its implementation implies the solution of additional differential equation governing the mesh movement. The method allows to keep a topology of the initial mesh and does not increase significantly the computational costs. The technology is developed for 2D formulations and verified on model problems.&lt;/p></description></item><item><title>Turbulence Model Development Using Markov Chain Monte Carlo Approximate Bayesian Computation</title><link>https:olgadoronina.github.io/publication/2019_abc_rans/</link><pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2019_abc_rans/</guid><description>&lt;p>Approximate Bayesian computation (ABC) is used in this study to estimate unknown model parameter values, as well as uncertainties, in a nonequilibrium anisotropy closure for Reynolds averaged Navier-Stokes (RANS) simulations. The ABC approach does not require the direct computation of a likelihood function, thereby enabling substantially faster estimation of un-known parameters as compared to full Bayesian analyses. The approach also naturally provides uncertainties in parameter estimates, avoiding the artificial certainty implied by optimization methods for determining unknown parameters. Details of the ABC approach are described, including the use of a Markov chain Monte Carlo technique to accelerate the parameter estimation, and unknown model parameters are estimated based on turbulence kinetic energy reference data for four impulsively sheared homogeneous turbulence test cases, as well as periodically sheared homogeneous turbulence for five different shearing frequencies. The ABC method is shown to yield parameter values for the nonequilibrium anisotropy closure that provide good agreement between model results and the reference data.&lt;/p></description></item><item><title>Autonomic Closure for Turbulent Flows Using Approximate Bayesian Computation</title><link>https:olgadoronina.github.io/publication/2018_autonomic_abc/</link><pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2018_autonomic_abc/</guid><description>&lt;p>Autonomic closure is a new technique for achieving physically accurate adaptive closure
 of coarse-grained turbulent flow governing equations, such as those solved in large eddy simulations (LES). Although autonomic closure has been shown in recent a priori tests to more
 accurately represent unclosed terms than do dynamic versions of traditional LES models, the
 optimization step used in the approach introduces large matrices that must be inverted, resulting in high memory usage. In order to reduce memory requirements, here we propose the use
@@ -507,7 +377,11 @@ Academic is mobile first with a responsive design to ensure that your site looks
 &lt;p>Copyright 2016-present
 &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
 &lt;p>Released under the
-&lt;a href="https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Numerical simulation of acoustic waves scattering by isolated vortex structures</title><link>https:olgadoronina.github.io/publication/2013_vortex/</link><pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2013_vortex/</guid><description>&lt;p>We consider a linear sound scattering by an isolated vortex as one of the fundamental problems in order to investigate an interaction of the vortex flow and acoustic waves. We present numerical simulation results for a planar wave scattered by a Gaussian-core vortex and a cylindrical point source acoustic wave scattered by a Rankine vortex. For numerical simulation we use the EBR scheme on meshes of different types. We compare results to the benchmark solution and we also compare different approaches to numerical simulation of the problem.&lt;/p></description></item><item><title>Using ABC for turbulence model calibration</title><link>https:olgadoronina.github.io/project/turbulence_modeling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/project/turbulence_modeling/</guid><description>&lt;p>Real-world turbulent flows are challenging to simulate due to the high computational cost of resolving all their relevant spatial and temporal scales. There are two common approaches to reduce the cost of such simulations:&lt;/p>
+&lt;a href="https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Numerical simulation of acoustic waves scattering by isolated vortex structures</title><link>https:olgadoronina.github.io/publication/2013_vortex/</link><pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/publication/2013_vortex/</guid><description>&lt;p>The problem of sound scattering by an isolated vortex is of interest in itself and the basis for understanding the interaction between acoustic waves and a vortex flow, including the process of sound generation by turbulence.&lt;/p>
+&lt;p>In order to solve this problem we use the linearized Euler equations in the nonuniform average field, taking into account isoentropic medium. For numerical simulation, we also use a scheme based on the quasi-one-dimensional reconstruction of the 5th order of accuracy. Calculations are performed using the parallel research code NOISEtte (KIAM RAS).&lt;/p>
+&lt;p>We give the calculational results of the plane acoustic wave scattering by isoentropic Gaussian-core vortex of a constant velocity circulation and demonstrate the convergence of solutions to the benchmark solution. Unlike the other authors results, not only Cartesian meshes, but quasi-uniform unstructured triangular meshes are also used. It is found that in both cases the results are almost the identical for the same number of nodes.&lt;/p>
+&lt;p>Further, we consider the problem of the cylindrical point source acoustic wave scattering by the Rankine vortex. We carry out the calculations on unstructured meshes and compare the results of different approaches to the problem: a finite-volume approach (NOISEtte), a finite element approach (Actran DGM) and a finite-difference Cabaret scheme.&lt;/p>
+&lt;p>In particular, the results confirm that the software system NOISEtte and the used method can be successfully applied to the numerical simulation of interaction between acoustic waves and vortex structures.&lt;/p></description></item><item><title>Using ABC for turbulence model calibration</title><link>https:olgadoronina.github.io/project/abc_turbulence_modeling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https:olgadoronina.github.io/project/abc_turbulence_modeling/</guid><description>&lt;p>Real-world turbulent flows are challenging to simulate due to the high computational cost of resolving all their relevant spatial and temporal scales. There are two common approaches to reduce the cost of such simulations:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>

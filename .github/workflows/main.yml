@@ -24,11 +24,17 @@ jobs:
       with:
         submodules: true
 
-    - name: Publish Site
-      uses: chabad360/hugo-gh-pages@master
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
       with:
-        githubToken: ${{ secrets.DEPLOY_TOKEN }}
-        hugoVersion: extended_0.70.0
-        # branch: gh-pages is the default behavior
-        # repo: current repo is the default behavior
-        args: --minify
+        hugo-version: 'latest'
+
+    - name: Build
+      run: hugo --minify
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.DEPLOY_TOKEN }}
+        publish_dir: ./public
+

@@ -5,7 +5,7 @@ title = "Autonomic Closure for Turbulent Flows Using Approximate Bayesian Comput
 date = "2018-01-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Olga Doronina", "Jason Christopher", " Colin Towery", "Peter Hamlington", "Werner Dahm"]
+authors = ["olga_doronina", "Jason Christopher", "Colin Towery", "Peter Hamlington", "Werner Dahm"]
 
 # Publication type.
 # Legend:
@@ -36,8 +36,8 @@ selected = true
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 #   E.g. `projects = ["deep-learning"]` references `content/project/deep-learning.md`.
-projects = []
-tags = ["ABC"]
+projects = ["ABC_turbulence_modeling"]
+tags = ["ABC", "LES"]
 # Links (optional).
 url_pdf = "https://www.researchgate.net/profile/Olga_Doronina/publication/322312942_Autonomic_Closure_for_Turbulent_Flows_Using_Approximate_Bayesian_Computation/links/5b0d7f660f7e9b1ed70089a6/Autonomic-Closure-for-Turbulent-Flows-Using-Approximate-Bayesian-Computation.pdf"
 url_preprint = ""

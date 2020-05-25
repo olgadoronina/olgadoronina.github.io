@@ -24,18 +24,12 @@ jobs:
       with:
         submodules: true
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+    - name: Publish Site
+      uses: chabad360/hugo-gh-pages@master
       with:
-        hugo-version: '0.70.0'
-        extended: true
-
-    - name: Build
-      run: hugo -t academic --minify
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.DEPLOY_TOKEN }}
-        publish_dir: ./public
+        githubToken: ${{ secrets.DEPLOY_TOKEN }}
+        hugoVersion: extended_0.70.0
+        # branch: gh-pages is the default behavior
+        # repo: current repo is the default behavior
+        args: --minify --cleanDestinationDir
 

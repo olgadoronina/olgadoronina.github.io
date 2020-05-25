@@ -28,3 +28,7 @@ jobs:
       uses: chabad360/hugo-gh-pages@master
       with:
         githubToken: ${{ secrets.DEPLOY_TOKEN }}
+        hugoVersion: extended_0.70.0
+        # branch: gh-pages is the default behavior
+        # repo: current repo is the default behavior
+        args: --minify

@@ -86,4 +86,17 @@ date_format = "January 2006"
   description = """
   
   * Graded assignments and demonstrated solutions to certain homework problems in Maths and Physics. """
+  
+  [[experience]]
+  title = "Undergraduate research assistant"
+  company =  "Moscow Institute of Physics and Technology"
+  company_url = ""
+  location = "Moscow"
+  date_start = "2011-03-01"
+  date_end = "2013-07-02"
+  description = """ 
+  Department of
+  Mathematical foundations of control laboratory
+  
+  * Merged and visualized large amounts of environmental data gathered into geo-databases. """
 +++

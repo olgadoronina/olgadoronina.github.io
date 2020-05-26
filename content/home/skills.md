@@ -1,13 +1,13 @@
 +++
 # Feature/Skill widget.
 widget = "featurette"  # Do not modify this line!
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 
 title = "Skills"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 30
+weight = 25
 
 # Showcase personal skills or business features.
 # 
@@ -22,21 +22,35 @@ weight = 30
   description = ""
 
 [[feature]]
-  icon = "python"
-  icon_pack = "fab"
-  name = "C/C++"
+  icon = "brain"
+  icon_pack = "fas"
+  name = "Research"
   description = ""  
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
+  name = "Data Analysis"
+  description = ""  
+
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "fas"
   name = "Statistics"
   description = ""  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "wind"
   icon_pack = "fas"
-  name = "Photography"
+  name = "CFD"
   description = ""
+
+
+  
+[[feature]]
+    icon = "project-diagram"
+    icon_pack = "fas"
+    name = "Machine Learning"
+    description = ""
 
 +++

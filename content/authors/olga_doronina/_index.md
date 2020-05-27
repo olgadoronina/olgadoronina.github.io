@@ -24,16 +24,10 @@ email = "olga.doronina@colorado.edu"
 # List (academic) interests or hobbies
 interests = [
 	"Machine learning", 
-	"Statistical analysis",
-	"Turbulence modeling",
-    "Numerical Methods",
-    "Moving meshes"
+	"Statistics",
+	"Data Analysis",
+	"Turbulence modeling"
 ]
-
-publications = []
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-# user_groups = ["Grad Students"]
 
 # List qualifications (such as academic degrees)
 #[[education.courses]]

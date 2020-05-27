@@ -44,8 +44,6 @@ weight = 25
   icon_pack = "fas"
   name = "CFD"
   description = ""
-
-
   
 [[feature]]
     icon = "project-diagram"

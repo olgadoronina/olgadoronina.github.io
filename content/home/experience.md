@@ -21,82 +21,67 @@ date_format = "January 2006"
 [[experience]]
   title = "Research Assistant"
   company = "University of Colorado, Boulder"
-  company_url = ""
-  location = "Boulder"
+  company_url = "https://www.colorado.edu/"
+  location = "Boulder, CO"
   date_start = "2017-01-01"
   date_end = ""
-  description = """ [Turbulence and Energy Systems Laboratory (TESLa)](http://tesla.colorado.edu/) """
+  description = """ [Turbulence and Energy Systems Laboratory (TESLa)](http://tesla.colorado.edu/) 
+  * Created a flexible tool for turbulence model calibration utilizing Approximate Bayesian Computation (ABC) and Markov Chain Monte Carlo (MCMC)
+  * Developed software collaboratively in Python with version control and published code on Github.
+  * Automated job submission for simulation runs on a supercomputer with Bash and data extraction and data analysis with Python and Jupyter Notebooks.
+  * Presented research results at eight scientific conferences and co-authored two journal publications and two conference papers"""
   
 
 [[experience]]
   title = "Research Assistant"
   company = "Keldysh Institute of Applied Mathematics (KIAM RAS)"
-  company_url = ""
-  location = "Moscow"
-  date_start = "2013-09-01"
+  company_url = "https://keldysh.ru/index.en.shtml"
+  location = "Moscow, Russia"
+  date_start = "2011-09-01"
   date_end = "2016-07-01"
   description = """ [Computational Aeroacoustics Laboratory](http://caa.imamod.ru/)
   
-  * Numerical simulation of acoustic waves scattering by isolated vortex structures using linear Euler equations
-  * Numerical study of acoustic radiation dynamics of a Rankine vortex"""
+  * Implemented a moving mesh algorithm for efficient simulations into an in-house code architecture using C/C++ and MPI with OpenMP
+  * Analysed data using Fourier and wavelet analysis to find frequencyp atterns
+  * Presented research results at four scientific conferences and co-authored three journal articles"""
   
 [[experience]]
   title = "Teaching Assistant"
   company =  "University of Colorado, Boulder"
-  company_url = ""
-  location = "Boulder"
+  company_url = "https://www.colorado.edu/"
+  location = "Boulder, CO"
   date_start = "2016-08-01"
   date_end = "2016-12-31"
   description = """
-  Department of Mechanical Engineering
+  *Computational Methods MCEN 3030*
+  * Held laboratory sessions and assisted students through programming assignments in Matlab
+  * Graded programming assignments and exams
   
-  * Led Matlab Labs for an undergraduate Numerical Methods course
-  * Led Abaqus labs for an undergraduate/graduate Finite Element Analysis course"""
+  *Finite Element Analysis MCEN 4173/5173*
+  * Conducted laboratory sessions guidings tudents through tutorials in ABAQUS
+  * Held office hours to helps tudents with homework and lab assignments
+  """
 
 [[experience]]
-  title = "Instructor"
+  title = "Instructor of Record"
   company =  "Moscow Institute of Physics and Technology"
-  company_url = ""
-  location = "Dolgoprudny"
+  company_url = "https://mipt.ru/english/"
+  location = "Dolgoprudny, Russia"
   date_start = "2015-02-10"
   date_end = "2016-06-10"
   description = """ 
-   Department of Numerical Mathematics
-   
-  * Taught Numerical Methods course"""
+   *Numerical Methods I / Numerical Methods II*
+  * Prepared lesson plans and lectured three classes of approximately 16 students each
+  * Designed and evaluated practice programming assignments, homeworks, and exams"""
 
-[[experience]]
-  title = "Tutor"
-  company =  ""
-  company_url = ""
-  location = "Moscow"
-  date_start = "2012-09-10"
-  date_end = "2016-05-10"
-  description = """ 
-    
-  * Tutored middle school, high school and undergraduate students in math and physics"""
-  
-  [[experience]]
-  title = "Grader"
-  company =  "Correspondence school of physics and mathematics"
-  company_url = ""
-  location = "Dolgoprudny"
-  date_start = "2011-09-10"
-  date_end = "2013-08-10"
-  description = """
-  
-  * Graded assignments and demonstrated solutions to certain homework problems in Maths and Physics. """
-  
   [[experience]]
   title = "Undergraduate research assistant"
-  company =  "Moscow Institute of Physics and Technology"
+  company =  "Dorodnicyn Computing Centre of RAS"
   company_url = ""
-  location = "Moscow"
+  location = "Moscow, Russia"
   date_start = "2011-03-01"
-  date_end = "2013-07-02"
-  description = """ 
-  Department of
-  Mathematical foundations of control laboratory
-  
-  * Merged and visualized large amounts of environmental data gathered into geo-databases. """
+  date_end = "2011-06-02"
+  description = """
+ * Built and visualized a geo-data base combining large amounts of environmental data from multiple
+sources using PostGIS and ArcGIS """
 +++

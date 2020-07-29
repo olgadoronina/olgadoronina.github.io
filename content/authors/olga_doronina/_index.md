@@ -75,12 +75,7 @@ interests = [
   icon_pack = "fab"
   link = "https://github.com/olgadoronina"
 
-[[social]]
-  icon = "cv"
-  icon_pack = "ai"
-  link = "/files/resume.pdf"
-
-
 
 +++
 I am a PhD student in the Turbulence and Energy Systems Laboratory ([TESLa](https://teslacu.org/)) at the University of Colorado Boulder, doing research on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
+My research interests include modeling and simulating turbulent flows with an emphasis on the development of new data science and machine learning modeling approaches.

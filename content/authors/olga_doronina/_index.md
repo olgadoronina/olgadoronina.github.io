@@ -9,11 +9,11 @@ authors = ["olga_doronina"]
 superuser = true
 
 # Role/position
-role = "PhD student at Mechanical Engineering"
+role = "Postdoctoral Reseacher"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "University of Colorado, Boulder", url = "https://www.colorado.edu/" } ]
+organizations = [ { name = "National Renewable Energy Laboratory", url = "https://www.nrel.gov/" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "My research interests include data-driven turbulence modeling, statistical analysis and machine learning"
@@ -36,19 +36,19 @@ interests = [
 #  year = 2020
 
 [[education.courses]]
-  course = "MS in Mechanical Engineering"
+  course = "Ph.D./M.S. in Mechanical Engineering"
   institution = "University of Colorado, Boulder"
-  year = 2019
+  year = 2020
   
-[[education.courses]]
-  course = "MS in Applied Mathematics and Physics"
-  institution = "Moscow Institute of Physics and Technology (Phystech)"
-  year = 2014
+#[[education.courses]]
+#  course = " in Applied Mathematics and Physics"
+#  institution = "Moscow Institute of Physics and Technology (Phystech)"
+#  year = 2014
 
 [[education.courses]]
-  course = "BS in Applied Mathematics and Physics"
+  course = "M.S./B.S. in Applied Mathematics and Physics"
   institution = "Moscow Institute of Physics and Technology (Phystech)"
-  year = 2012
+  year = 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -75,7 +75,7 @@ interests = [
   icon_pack = "fab"
   link = "https://github.com/olgadoronina"
 
+#I am a PhD student in the Turbulence and Energy Systems Laboratory ([TESLa](https://teslacu.org/)) at the University of Colorado Boulder, doing research on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
 
 +++
-I am a PhD student in the Turbulence and Energy Systems Laboratory ([TESLa](https://teslacu.org/)) at the University of Colorado Boulder, doing research on data-driven turbulence modeling using an Approximate Bayesian Computation (ABC) approach.
 My research interests include modeling and simulating turbulent flows with an emphasis on the development of new data science and machine learning modeling approaches.

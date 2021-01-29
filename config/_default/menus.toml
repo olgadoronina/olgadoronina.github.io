@@ -40,7 +40,7 @@
     url = "files/Doronina_Academic_CV.pdf"
     weight = 70
 
- [[main]]
-    name = "Resume"
-    url = "files/Doronina_Resume.pdf"
-    weight = 80
+# [[main]]
+#    name = "Resume"
+#    url = "files/Doronina_Resume.pdf"
+#    weight = 80

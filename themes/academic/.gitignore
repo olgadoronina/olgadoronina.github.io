@@ -1,12 +1,8 @@
-# IDE specific
+# IDEs
 .idea/
-.vscode/
 
 # Hugo
-exampleSite/public/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Node
+/resources/
+public/
+jsconfig.json
 node_modules/

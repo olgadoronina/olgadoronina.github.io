@@ -5,7 +5,7 @@ title = "Turbulence Model Development Using Markov Chain Monte Carlo Approximate
 date = "2019-01-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Olga Doronina"," Colin Towery",  "Jason Christopher", "Ian Grooms", "Peter Hamlington"]
+authors = ["olga_doronina"," Colin Towery",  "Jason Christopher", "Ian Grooms", "Peter Hamlington"]
 
 # Publication type.
 # Legend:
